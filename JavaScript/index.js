@@ -20,3 +20,8 @@ function add(a,b){
 }
 
 console.log(34+45+545)
+
+variable 
+
+num = 2
+
