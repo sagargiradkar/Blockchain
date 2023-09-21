@@ -131,3 +131,32 @@ else{
     console.log("q is greter than p")
 }
 
+let c =100
+let d = 28929
+let e = 32478
+
+if( c > d && c >e){
+    console.log(`${c} is greter than ${d} and ${e}`)
+}
+else if(d>c && d >e){
+    console.log(`${d} is greter than ${d} and ${e}`)
+}
+else {
+    console.log(`${e} is greter than ${c} and ${d}`)
+}
+
+
+// Ternary Operator
+
+let result1 = (num5 % 2 === 0) ? "Even" : "Odd" 
+
+console.log(result1)
+
+for(let i=1 ; i<=10 ; i++){
+    console.log(i);
+}
+let i = 0;
+while(i<=100){
+    console.log(i*i*5)
+    i+=10
+}
