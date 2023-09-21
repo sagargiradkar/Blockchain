@@ -91,5 +91,43 @@ console.log(value3);
 let sagar = 10 ;
 sagar += 154544;
 sagar++;
-sagar--
-console.log(sagar)
+sagar--;
+console.log(sagar);
+
+let num5 = 10
+let num11 = 10
+console.log(num5 > num11)
+
+console.log(num5 === num11)
+
+let user1 = "Sagar"
+
+let user2 = "Pavan"
+
+console.log(user1 + "  " + user2)
+
+// Template literal
+
+console.log(`The Value of number 5 and 11 is ${num5} && ${num11}`)
+
+console.log(num1 + num2 )
+
+let num10 = 157
+
+if(num10 % 2 === 0){
+    console.log("Given Number is Even ")
+}
+else{
+    console.log("Given Number is not even i.e. ( Odd Number )")
+}
+
+let p = 1998
+let q = 1373
+
+if(p>q){
+    console.log("p is greter than q")
+}
+else{
+    console.log("q is greter than p")
+}
+
