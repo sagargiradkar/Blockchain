@@ -1,3 +1,4 @@
+"use strict"
 let a = 45;
 let s1 = "Hello";
 let s2 = "World";
@@ -44,3 +45,21 @@ myCar.engine = "150cc"
 myCar.Color = "Pink"
 console.log(myCar)
 console.log(myCar.engine)
+
+let student = new Object();
+
+student.name = "Sagar"
+student.marks = 95;
+student.age = 51
+student.address = "Pauna Khurd"
+student.po = "Manglli "
+student.tah = "Pauni";
+student.dist = "Bhandara"
+student.mar = {math :54,phy :35 ,chem :55}
+
+console.log(student)
+console.log(student.age)
+console.log(student.po)
+console.log(student.address)
+console.log(student.tah)
+console.log(student.dist)
