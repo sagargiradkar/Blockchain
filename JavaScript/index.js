@@ -1,27 +1,8 @@
-console.log("Hello world") 
-let a ,b ,c
-a = 1000
-b = 20
-c = 122
+console.log("Hello world")
 
-if(a>b && a>c){
-    console.log("a is greter")
-    console.log(add(a,b))
-}
-else if(b>a && b>c){
-    console.log("b is greter")
-}
-else{
-    console.log("c is greter")
-}
-//write an function of aadition of two number
-function add(a,b){
-    return a+b
-}
+let a = 10 ;
+let b = 100;
 
-console.log(34+45+545)
+let sum = a + b;
 
-variable 
-
-num = 2
-
+console.log(sum);
