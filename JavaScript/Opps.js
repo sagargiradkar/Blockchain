@@ -50,7 +50,11 @@ person1.greet();
 person1.print();
 
 class Students extends Person{
-
+    constructor(){
+        //Super points to the constructor of parent claa
+        super();
+        console.log("This is Students Class");
+    }
 }
 
 
@@ -58,3 +62,28 @@ let student1 = new Students("Pavan",55,"B.Tech","Android Devloper","Chinees","Ch
 console.log("Printing Data From Child class by calling to the Parent class")
 student1.greet();
 student1.print();
+
+class Child extends Students{
+    constructor(name,age,high_qual,desig,city){
+        super(name);
+        console.log("This is Child Class");
+        this.age = age;
+        this.name = name;
+        this.high_qual = high_qual;
+        this.desig = desig;
+        this.city = city;
+    }
+    greetStudent(){
+        console.log(`${this.name}`);
+        console.log(`${this.age}`);
+        console.log(`${this.high_qual}`);
+        console.log(`${this.desig}`);
+        console.log(`${this.city}`);
+    }
+}
+
+
+let student2 = new Child("Pavan",55,"B.Tech","Android Devloper","China");
+console.log("Printing Data From Child class by calling to the Parent class is Students ")
+student2.greet();
+student2.print();
