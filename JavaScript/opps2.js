@@ -54,7 +54,7 @@ object2.greet();
 
 // Function A- Object1 in para,eter
 //function B -working with object1 or working with properties of function A
-
+/*
 //Animal is a base function
 function Animal(value){
     var obj = {};  // create an empty object 
@@ -76,3 +76,27 @@ function Dog(value){
 var myCuteDog = Dog({name : "Snoop"});
 console.log(myCuteDog.greet());
 
+*/
+
+class Person{
+    constructor(name){
+        this.name = name;
+
+    }
+    getName(){
+        return this.name;
+    }
+    static Create(gender){
+        let name = gender  =="Male" ? "Sagar" : "Sanjeevani"; 
+        return new Person(name);
+    }
+}
+
+let name_gender = Person.Create("Male");
+console.log(name_gender);
+
+let name_gender1 = Person.Create("Female");
+console.log(name_gender1);
+
+// let object = new Person("Male");
+// console.log(object.Create("Male"));
