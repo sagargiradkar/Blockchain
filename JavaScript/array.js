@@ -88,8 +88,49 @@ let value = [1,1,4456,54,5,47,6,7,8,9,14,155,14,85,74];
 
 
 
-let result = value.filter( num => num%2 ===0)
-        .map(num => num*2)
-        .reduce((sum,num) => sum + num,1)
+// let result = value.filter( num => num%2 ===0)
+//         .map(num => num*2)
+//         .reduce((sum,num) => sum + num,1)
 
-console.log(result);
+// console.log(result);
+
+// let a = 10;
+// let b = 192;
+// let c = 212876;
+
+// let values = [a,b,c];
+
+// console.log(values);
+
+// let sam = [1,34,546,5656,767,5678,578,78];
+
+// let [a,b,c,d,e,f, ...g] = sam;
+
+// console.log(g);
+
+
+
+//rest and spread operator 
+
+// function sum(a,b,...nums){
+//     let restult = a + b;
+
+//     for(let num of nums){
+//         result = restult + num;
+//     }
+//     return restult;
+// }
+
+// let result = sum(1,154,154,154,154,15);
+
+function sum(a,b,c,d,e){
+    let result = a + b + c + d + e;
+
+    return result;
+}
+
+let nums = [12,234,45,45,56,456,57,65,74657];
+
+let restult = sum(...nums);
+
+console.log(restult);
