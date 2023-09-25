@@ -24,7 +24,7 @@ const grandParentCooking = () =>{
     // promise.then(function(result){
     //     // then will indicate promise has been fulfilled
     //     console.log(`cooking jack and jill are back with water`);
-    // });
+    // }); ////
 
     promise.catch(function(error){
         console.log(`omg ${error.message}`)
