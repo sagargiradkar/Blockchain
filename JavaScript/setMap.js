@@ -43,16 +43,20 @@
 
 // Map is working with keys and values pair
 
-// let map = new Map(); // => set of keys and array of values 
+let map = new Map(); // => set of keys and array of values 
 
-// map.set("Sagar","Java");
-// map.set("Hyder","JavaScript");
-// map.set("Sanjeevan","Blockchain");
-// map.set("Sagar","EdgeComputing");
-// console.log(map);
+map.set("Sagar","Java");
+map.set("Hyder","JavaScript");
+map.set("Sanjeevan","Blockchain");
+map.set("Sagar","EdgeComputing");
+console.log(map);
 
-// console.log(map.keys());
-// console.log(map.values());
+console.log(map.keys());
+console.log(map.values());
 
-// console.log(map.size);
+console.log(map.size);
+map.forEach((v,k) => console.log(v,k));
 
+let values = [1,2,5,5,6,6];
+
+values.forEach( (v,i,values) => console.log(v,i));
