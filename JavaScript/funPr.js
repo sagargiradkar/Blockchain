@@ -38,13 +38,13 @@
 function outer(){
     let num = 20;
     console.log("Outer",num);
-    return function(){
+    return function(num2){
         let num = 10;
 
-        console.log("inner",num);
+        console.log("inner",num,num2);
     }
 }
 
 let result = outer();
-result();
+result(200);
 
