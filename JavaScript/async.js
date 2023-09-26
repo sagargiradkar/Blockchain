@@ -34,7 +34,7 @@ fun1();
 // During Projects
 
 */
-
+/*
 const fun1 = () => {
     console.log("Function 1 is starting");
     fun2();
@@ -48,3 +48,5 @@ const fun2 = () =>{
 }
 
 fun1();
+*/
+
