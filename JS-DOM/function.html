@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function add(a,b){
+            let sum = a + b;
+            return sum;
+        }
+        let output = add(10,20);
+        document.write("<h1> Addition of two number is :"+output+"<h1><br>");
+
+        function fact(n){
+            if (n == 0 || n == 1)
+                return 1;
+                return n * factorial(n - 1);
+            }
+        let input = fact(5);
+        document.write("<h1> Factorial of Given number is "+ input +" <h1>")
+    </script>
+</body>
+</html>

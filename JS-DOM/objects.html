@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let car = {
+            car_brandName : "Hyundai",
+            car_name : "Creata",
+            car_engine :"v8",
+            car_yom :"2022",
+            car_price :"14Laks",
+            car_color : "White",
+            electric:function(){
+                return "The given car is not an electrical car";
+            }
+
+        }
+        document.write("<p> The car manufactures is a "+ car.car_brandName+"<p>")
+
+        document.write("<p> The car  is  "+ car.electric() +"<p>")
+    </script>
+</body>
+</html>
