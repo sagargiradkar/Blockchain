@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h2>Regular Expression in DOM</h2>
+</head>
+<body>
+    <h1 id="regex">Welcome to Ineuron , this is full stack Blockchaine devlopment</h1>
+
+    <script>
+        // let text = "Welcome to Ineuron , this is full stack Blockchaine devlopment";
+        // let index = text.search("Blockchain");
+        // document.getElementById("regex").innerHTML = index;
+
+        function replaceText(){
+            let text = document.getElementById("regex").innerHTML;
+            document.getElementById("regex").innerHTML = text.replace("Blockchain","JavaScript");
+        }
+    </script>
+    <button onclick="replaceText()">Trthe Button</button>
+</body>
+</html>
