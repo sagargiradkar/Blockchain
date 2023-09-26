@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function buttonOnClick(){
+            // documents -represent the global dom object
+            var str = document.getElementById("heading").innerHTML="<h1>Welcome to the course of blockchain </h1>";
+            //alert(str);
+        }
+        function buttonOnClickPara(){
+            // documents -represent the global dom object
+            var str2 = document.getElementById("heading2").innerHTML="<h1>Welcome to the course of Full Stack Data Science</h1>";
+            //alert(str);
+        }
+    </script>
+    <button onclick="buttonOnClick()">Click Me</button>
+    <h2 id="heading">Hello welcome to the button tag</h2>
+
+    <button onclick="buttonOnClickPara()"> Click on me</button>
+    <h1 id="heading2">Hello Welcome to the world of Full stack Blockchain Devlopment Course</h1>
+</body>
+</html>
