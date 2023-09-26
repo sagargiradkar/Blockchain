@@ -16,7 +16,7 @@
 // console.log("Three");
 // console.log("One");
 // console.log("One");
-
+/*
 const fun1 = () =>{
     console.log("function is strating");
     fun2();
@@ -33,3 +33,18 @@ fun1();
 // setIntervals
 // During Projects
 
+*/
+
+const fun1 = () => {
+    console.log("Function 1 is starting");
+    fun2();
+    console.log("Function 1 is ending");
+}
+
+const fun2 = () =>{
+    setTimeout( () => {
+        console.log("Function 2 is Starting");
+    },3000);
+}
+
+fun1();
