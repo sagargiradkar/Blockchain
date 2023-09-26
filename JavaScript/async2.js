@@ -40,10 +40,14 @@ async function f(){
 
 f();
 */
+
+/*
 async function f(){
     let promise = new Promise((resolve,regect) => {
         setTimeout(() => resolve("Done"),6000);
     });
+
+    // Promise gets higher priority in execution 
     let result = await promise;// wait to having somethings is happening
     console.log(`Success - the result is ${result}`);
     console.log("Hello");
@@ -51,3 +55,5 @@ async function f(){
 }
 
 f();
+
+*/
