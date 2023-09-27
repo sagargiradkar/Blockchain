@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Input From User</title>
+    <h1>Take input from user in HTML form</h1>
+</head>
+<body>
+    <input type="text" name="" id="text1" placeholder="Enter Uesr Name">
+    <br><br>
+
+    <input type="password" name="" id="text2" placeholder="Entre your passeord"><br><br>
+
+    <button onclick="func1()" id="btn1"> Click Me </button>
+
+
+    <script type="text/javascript">
+        function func1(){
+            let str = document.getElementById("text1").value;
+            window.alert("The username is " + str);
+        }
+
+    </script>
+</body>
+</html>

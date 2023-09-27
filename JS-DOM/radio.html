@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Radio Buttons</h1>
+</head>
+<body>
+    <input type="radio" name="grp1" id="rd1" value="Blockchain">Blockchain</input><br>
+    <input type="radio" name="grp1" id="rd2" value="Solidity">Solidity</input><br>
+    <input type="radio" name="grp1" id="rd3" value="javascript">Blockchain</input><br>
+    <input type="radio" name="grp1" id="rd4" value="Solaris">Blockchain</input>
+<BR></BR>
+    <button onclick="func1()" id="btn1">Click Me</button>
+
+    <script type="text/javascript">
+        function func1(){
+            let rd1 = document.getElementById("rd1");
+            let rd2 = document.getElementById("rd2");
+
+            let rd3 = document.getElementById("rd3");
+            let rd4 = document.getElementById("rd4");
+
+            if(rd1.checked == true){
+                alert("The topic for today class is "+rd1.value);
+            }
+            else if(rd2.checked == true){
+                alert("The topic for tpdays class is " + rd2.value);
+            }
+            else if(rd3.checked == true){
+                alert("The topic for tpdays class is " + rd3.value);
+            }
+            else if(rd4.checked == true){
+                alert("The topic for tpdays class is " + rd4.value);
+            }
+            else{
+                alert("No Response is selected");
+            }
+        }
+
+    </script>
+
+</body>
+</html>
