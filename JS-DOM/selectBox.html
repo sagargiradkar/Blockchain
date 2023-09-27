@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Box</title>
+    <h1>Select Box</h1>
+</head>
+<body>
+    <select name="" id="selectbox">
+        <option value="BlockChain">Blockchain</option>
+        <option value="Ineuron">Ineuron</option>
+        <option value="Solidity">Solidity</option>
+        <option value="Hash">Hash</option>
+
+    </select>
+    <button onclick="func1()">Choose option</button>
+
+    <script type="text/javascript">
+        function func1(){
+        let selected = document.getElementById("selectbox");
+        window.alert(selected.options[selected.selectedIndex].value);
+
+        }
+    </script>
+</body>
+
+</html>
