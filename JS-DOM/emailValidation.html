@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmailValidation</title>
+    <h1>Email Validation </h1>
+</head>
+<body>
+    <script type="text/javascript">
+
+        function validate(){
+        let text = document.getElementById("text1").value;
+
+        // 
+        let regx = /^([a-zA-Z0-9\.-_]+)@([a-zA-Z0-9-]+).([a-zA-Z]{2,10})(.[a-z]{2,10})?$/;
+
+        if(regx.test(text)){
+            document.getElementById("lbl1text").innerHTML = "Valid";
+            document.getElementById("lbl1text").style.visibility = "Visible";
+            document.getElementById("lbl1text").style.color = "green";
+        }
+        else{
+            document.getElementById("lbl1text").innerHTML = "Invalid";
+            document.getElementById("lbl1text").style.visibility = "visible";
+            document.getElementById("lbl1text").style.color = "red";
+        }
+    }
+    </script>
+
+    <form action="">
+
+        <input type="email" placeholder="Enter your mobile number" id="text1"><br><br>
+
+        <label for="" id="lbl1text" style="color: red; visibility: hidden;">
+        Invalid </label>
+        <br>
+
+        <button onclick="validate()" type="button">Validate</button>
+    </form>
+</body>
+</html>
