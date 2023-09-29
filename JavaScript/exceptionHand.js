@@ -38,7 +38,7 @@ catch(error){
 }
 
 */
-
+/*
 try{
     let a = 5/0;
     console.log(a);
@@ -52,3 +52,22 @@ catch(error){
 finally{
     console.log("This code is always executed")
 }
+
+
+
+try{
+    let a = 5/0;
+    console.log(a);
+    console.log("We Are inside the try block")
+    blockchian();
+}
+catch(error){
+    console.log(error.name);
+    console.log(error.message);
+}
+
+finally{
+    console.log("This code is always executed")
+}
+*/
+
