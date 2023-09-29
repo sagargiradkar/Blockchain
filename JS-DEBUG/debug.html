@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debugging</title>
+
+    <h1>Debugging Exampele  </h1>
+</head>
+<body>
+    <script type="text/javascript">
+        function addition(){
+            let a = document.getElementById('t1').value;
+            let b = document.getElementById("t2").value;
+            let sum = (a+b);
+            document.getElementById("output").innerHTML = "Result = " + sum;
+        }
+        function multiplication(){
+            let a = document.getElementById('t3').value;
+            let b = document.getElementById("t4").value;
+            let mult = (a*b);
+            document.getElementById("output2").innerHTML = "Result = " + mult;
+        }
+    </script>
+    <h2>Concatenation Of Two String</h2>
+    <input type="text" name="" placeholder ="Enter Text One Here" id="t1"><br><br>
+
+    <input type="text" name="" placeholder ="Enter Second Text Here" id="t2"><br><br>
+    
+    <button onclick="addition()" id="btnAddition">Add Conctenation </button>
+
+    <h2 id="output"></h2>
+    <br><br>
+    <h2>Multiplication of two number</h2>
+    <input type="number" name="" placeholder ="Enter Velue One Here" id="t3"><br><br>
+
+    <input type="number" name="" placeholder ="Enter Value Text Here" id="t4"><br><br>
+    
+    <button onclick="multiplication()" id="btnAddition1">Multiplication Of two number </button>
+    
+    <h2 id="output2"></h2>
+</body>
+</html>
