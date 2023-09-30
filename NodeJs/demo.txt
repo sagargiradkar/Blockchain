@@ -1,4 +1,4 @@
-This is node js first live class
-This is full stack blockchian devlopment course
-Next topic will be react js
-Then we will learn solidity
+This is node js
+This is full stack blockchain devlopment 
+React js is next topic
+We are blockchain devloper
