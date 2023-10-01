@@ -1,0 +1,18 @@
+.sagar{
+    background-color: cadetblue;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    size: 100px;
+}
+.s{
+    background: red;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+
+}
+.i{
+    width: 500px;
+    height: 300px;
+}
