@@ -3,7 +3,7 @@
 pragma solidity ^0.8.6;
 
 contract Primitive_type{
-    bool public bool = true;
+    bool public bool1 = true;
     uint8 public u8 = 4;
     int8 public i8 = 4;
     uint16 public U16 = 200;
@@ -12,5 +12,5 @@ contract Primitive_type{
     int public minInt = type(int).min;
     int public maxInt = type(int).max;
 
-    address public addr = ; // 20bytes or 160 bits size length
+    //address public addr = ; // 20bytes or 160 bits size length
 }

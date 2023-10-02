@@ -22,9 +22,9 @@ contract structure{
         return book.bookId;
     }
 
-    function getBookName() public view returns(string){
-        return book.title;
-    }
+    // function getBookName() public view returns(string){
+    //     return book.title;
+    // }
 
 
 }

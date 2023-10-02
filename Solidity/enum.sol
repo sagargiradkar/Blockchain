@@ -19,9 +19,9 @@ contract enum11 {
         return choice;
     }
 
-    function getDefault() public view returns(uint){
-        return uint(defaultChoice);
-    }
+    // function getDefault() public view returns(uint){
+    //     return uint(defaultChoice);
+    // }
 }
 
 
