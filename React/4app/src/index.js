@@ -2,24 +2,80 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+const BookList = {
+  Image : "./download.jpeg",
+  Title : "Blockchain Technology : Concept and application",
+  Author : "Kumar Saurabh and Ashutosh Saxena"
+}
 
-function Book()
+const BookList1 = {
+  Image : "./download.jpeg",
+  Title : "Blockchain Technology : Concept and application",
+  Author : "Kumar Saurabh and Ashutosh Saxena"
+}
+
+const BookList2 = {
+  Image : "./download.jpeg",
+  Title : "Blockchain Technology : Concept and application",
+  Author : "Kumar Saurabh and Ashutosh Saxena"
+}
+
+const BookList3 = {
+  Image : "./download.jpeg",
+  Title : "Blockchain Technology : Concept and application",
+  Author : "Kumar Saurabh and Ashutosh Saxena"
+}
+
+const BookList4 = {
+  Image : "./download.jpeg",
+  Title : "Blockchain Technology : Concept and application",
+  Author : "Kumar Saurabh and Ashutosh Saxena"
+}
+
+function Books()
 {
     return (
-      <section>
-        <Title/>
-        <Author/>
-        <Image/>
+      <section className='booksList'>
+        <Image 
+        img = {BookList.Image}
+        title = {BookList.Title}
+        Author = {BookList.Author}>
+          <p>Sagar Is Full Stack BlockChain Devloper</p>
+        </Image>
+
+<Image 
+        img = {BookList1.Image}
+        title = {BookList1.Title}
+        Author = {BookList1.Author}></Image>
+
+<Image 
+        img = {BookList2.Image}
+        title = {BookList2.Title}
+        Author = {BookList2.Author}></Image>
+
+<Image 
+        img = {BookList3.Image}
+        title = {BookList3.Title}
+        Author = {BookList3.Author}></Image>
+<Image 
+        img = {BookList4.Image}
+        title = {BookList4.Title}
+        Author = {BookList4.Author}></Image>
       </section>
     );
 }
 
-const Title = () => <h2>Blockchain Tecknology:Concept and application</h2>;
-
-const Author = () => <h2>Kumar Saurabh and Ashutosh Saxena</h2>;
-
-const Image = () => {
-  <img src='https://www.amazon.in/Blockchain-Technology-IM-Kumar-Saurabh/dp/8126557664/ref=sr_1_4?crid=1WTYJOBDLT2RX&keywords=blockchain+book&qid=1696234664&sprefix=blockchain+boo%2Caps%2C433&sr=8-4'></img>
+const Image = (props) => 
+{
+  return (
+  <article className='book'>
+    <img src={props.img} alt='bookimage'></img>
+    <h1>{props.title}</h1>
+    <h2>{props.Author}</h2>
+    <h1>{props.children}</h1>
+  </article>
+  )
 }
 
-ReactDOM.render()
+ReactDOM.render(<Books/>,
+document.getElementById('root'))
