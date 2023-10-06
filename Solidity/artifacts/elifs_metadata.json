@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "x",
+						"type": "int256"
+					}
+				],
+				"name": "condi",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"iflelse.sol": "elifs"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"iflelse.sol": {
+			"keccak256": "0xddba2d070619980845627fc7e775f33a6a3edc50cc9106e7f13b92a26c3cb323",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5e380aec42f28361eb05e41d34dbc30ac30b11fe2314d4dffa83c70d5f86d536",
+				"dweb:/ipfs/QmXfETByWYcXthvEpYGdCmYAotqJg9Fu2MkjgKR3u15PtN"
+			]
+		}
+	},
+	"version": 1
+}
